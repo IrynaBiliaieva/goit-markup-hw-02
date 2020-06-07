@@ -3,12 +3,11 @@
 
 /* белый #FFFFFF  */
 /* акцент #2196F3 */
-/* вторичный цвет фона #F5F5F5; */
 
 :root {
-  --primary-text-color: rgba(0, 0, 0, 0.8);
-  --title-text-color: #000000;
-  --accent-color: #18a0fb;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
 
@@ -16,8 +15,11 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
-  font-family: Montserrat, sans-serif;
-  letter-spacing: -0.015em;
-  font-size: 18px;
-  line-height: 1.67;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
+
+text-transform: uppercase;
