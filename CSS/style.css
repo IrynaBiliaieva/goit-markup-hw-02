@@ -15,9 +15,7 @@
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto;
-  font-weight: 400;
-
-}
+  font-weight: 400;}
 
 /* Logo */
 
@@ -30,8 +28,10 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration:none;
  }
-.logo>span
+
+ .logo .span
 { color: blue;}
+
 .logo:hover {
   color: var(--accent-color);
 }
