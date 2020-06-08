@@ -145,6 +145,15 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+/*section-features*/
+.section-features li {
+  list-style: none;
+}
+
+/*work-examples-section*/
+.work-examples-section li {
+  list-style: none;
+}
 
 /*our team*/
 .our-team-item {
