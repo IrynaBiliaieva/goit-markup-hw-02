@@ -11,7 +11,7 @@
 }
 /* body */
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 /* Logo */
 .logo:hover {
@@ -22,7 +22,7 @@ body {
 }
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -45,6 +45,10 @@ body {
 }
 
 /*header*/
+
+.site-nav li {
+  list-style: none;
+}
 
 .site-nav .link {
   font-weight: 500;
@@ -80,6 +84,9 @@ body {
 }
 .conatct-nav .link:active {
   color: var(--accent-color);
+}
+.contact-nav li {
+  list-style: none;
 }
 
 /* Hero block */
@@ -140,6 +147,9 @@ p {
 }
 
 /*our team*/
+.our-team-item {
+  list-style: none;
+}
 .our-team p {
   font-size: 16px;
   line-height: 1.18;
@@ -193,11 +203,15 @@ p {
 }
 
 /*Portfolio*/
-.portfolio {
+.portfolio a {
   text-decoration: none;
 }
+
+.portfolio li {
+  list-style: none;
+}
 /*filter*/
-.filters li {
+.filters button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -207,11 +221,14 @@ p {
   width: 128px;
   height: 38px;
 }
-.filters li:hover {
+.filters button:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-
+.filters button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 /*work-examples-sections*/
 
 .our-works li:hover {
