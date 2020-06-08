@@ -47,12 +47,12 @@ body {
 /*header*/
 
 .site-nav .link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--title-text-color);
-text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav .link:hover {
   color: var(--accent-color);
@@ -61,15 +61,16 @@ text-decoration: none;
   color: var(--accent-color);
 }
 .site-nav .link:active {
-  color: var(--accent-color);}
+  color: var(--accent-color);
+}
 
-.contact-nav .link{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--primary-text-color);
-text-decoration: none;
+.contact-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .contact-nav .link:hover {
   color: var(--accent-color);
@@ -78,8 +79,8 @@ text-decoration: none;
   color: var(--accent-color);
 }
 .conatct-nav .link:active {
-  color: var(--accent-color);}
-
+  color: var(--accent-color);
+}
 
 /* Hero block */
 .hero-title {
@@ -138,99 +139,101 @@ p {
   color: var(--primary-text-color);
 }
 
-
 /*our team*/
 .our-team p {
-font-size: 16px;
-line-height: 1.18
-text-align: center;
-letter-spacing: 0.03em;  
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .team-member {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18
-color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--title-text-color);
 }
 
 /*footer*/
-.footer{
-background-color: #2F303A;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primary-white-color);
+.footer {
+  background-color: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
-.footer .logo{
-color: var(--primary-white-color);    
-}
-
-.footer .link{
-color: var(--primary-text-color);   
-text-decoration: none; 
+.footer .logo {
+  color: var(--primary-white-color);
 }
 
-.footer .link:hover {color: var(--accent-color);}
-.footer .link:focus {color: var(--accent-color);}
-.footer .link:focus {color: var(--accent-color);}
-.footer strong{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-text-transform: uppercase;
-color: var(--primary-white-color);
+.footer .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
-.footer .button{
-font-weight: 900;
+.footer .link:hover {
+  color: var(--accent-color);
+}
+.footer .link:focus {
+  color: var(--accent-color);
+}
+.footer .link:focus {
+  color: var(--accent-color);
+}
+.footer strong {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.footer .button {
+  font-weight: 900;
 }
 
 /*Portfolio*/
 .portfolio {
-    text-decoration: none;
+  text-decoration: none;
 }
 /*filter*/
 .filters li {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-background-color:#F5F4FA;
-width: 128px;
-height:38px
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  width: 128px;
+  height: 38px;
 }
 .filters li:hover {
-background-color: var(--accent-color);
-color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /*work-examples-sections*/
 
-.our-works li:hover
-{
-background-color: var(--accent-color);
+.our-works li:hover {
+  background-color: var(--accent-color);
 }
 
-.our-works h2{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--title-text-color);
-text-decoration: none;
-
+.our-works h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  text-decoration: none;
 }
-.our-works p{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-text-decoration: none;
+.our-works p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .our-works span:hover {
-color: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
