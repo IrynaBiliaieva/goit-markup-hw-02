@@ -11,30 +11,30 @@
 
   <body>
     <!--header-->
-    <header>
-      <a lang="en" href="index.html " class="logo"><span>Web</span> Studio</a>
-      <nav>
-        <ul class=site-nav>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="./">Портфолио</a></li>
-          <li><a href="#contacts">Контакты</a></li>
+    <header class="page-header">
+        <a lang="en" href="index.html" class="logo"><span>Web</span> Studio</a>
+        <nav>
+            <ul class="site-nav">
+                <li><a href="index.html" class="link">Студия</a></li>
+                <li><a href="portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="#contacts" class="link">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="contact-nav">
+            <li>
+                <img src="./images/envelope.svg" class="link" alt="иконка конверта" />
+                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            </li>
+            <li>
+                <img src="./images/cellphone.svg" class="link" alt="иконка смартфона" />
+                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
         </ul>
-      </nav>
-      <ul class=contact-nav>
-        <li>
-          <img src="./images/envelope.svg" alt="иконка конверта" />
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <img src="./images/cellphone.svg" alt="иконка смартфона" />
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
     </header>
-    <main>
+    <main class=portfolio>
       <h1>Портфолио</h1>
       <!--filters-->
-      <ul>
+      <ul class="filters">
         <li>Все</li>
         <li>Веб-сайты</li>
         <li>Приложения</li>
@@ -42,6 +42,7 @@
         <li>Маркетинг</li>
       </ul>
       <!--our-works-->
+      <section class="our-works">
       <ul>
         <li>
           <a href="ссылка на сайт Технокряк">
@@ -53,9 +54,9 @@
             />
             <h2>Технокряк</h2>
             <p>Веб-сайт</p>
-            <p>
+            <p><span>
             Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-            шпионажа и атак на защищённые сервера конкурентов.
+            шпионажа и атак на защищённые сервера конкурентов.</span>
             </p>
           </a>
         </li>
@@ -128,40 +129,49 @@
             <p>Приложение</p>
         </li>
       </ul>
+    </section>
     </main>
 
     <!--footer-->
-    <footer>
-      <a lang="en" href="index.html" class="logo"><span>Web</span> Studio</a>
-      <address id="contacts">
+    <footer class="footer">
+    <a lang="en" href="index.html" class="logo"><span>Web</span> Studio</a>
+    <address id="contacts">
         г. Киев, пр-т Леси Украинки, 26<br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tell:+380991111111">+38 099 111 11 11</a>
-      </address>
-      <!--Social networks block-->
-      <div>
+        <a href="mailto:info@example.com" class="link">info@example.com</a><br />
+        <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+    </address>
+    <!--Social networks block-->
+    <div>
         <p>
-          <strong>присоединяйтесь</strong>
+            <strong>присоединяйтесь</strong>
         </p>
         <ul>
-          <li><a href="" aria-label="ссылка на Instagram">Instagram</a></li>
-          <li><a href="" aria-label="ссылка на Twitter">Twitter</a></li>
-          <li><a href="" aria-label="ссылка на Facebook">Facebook</a></li>
-          <li><a href="" aria-label="ссылка на LinkedIn">LinkedIn</a></li>
+            <li class="link">
+                <a href="" aria-label="ссылка на Instagram">Instagram</a>
+            </li>
+            <li class="link">
+                <a href="" aria-label="ссылка на Twitter">Twitter</a>
+            </li>
+            <li class="link">
+                <a href="" aria-label="ссылка на Facebook">Facebook</a>
+            </li>
+            <li class="link">
+                <a href="" aria-label="ссылка на LinkedIn">LinkedIn</a>
+            </li>
         </ul>
-      </div>
-      <!--E-mailing block-->
-      <div>
+    </div>
+    <!--E-mailing block-->
+    <div>
         <p><strong>подпишитесь на рассылку</strong></p>
         <form>
-          <input type="email" placeholder="E-mail" />
-          <button type="submit">Подписаться</button>
+            <input type="email" placeholder="E-mail" />
+            <button type="submit" class="button">Подписаться</button>
         </form>
-      </div>
-      <!--underline block-->
-      <p>
+    </div>
+    <!--underline block-->
+    <p>
         2020 | Developed by GoIT Students
-      </p>
+    </p>
     </footer>
   </body>
 </html>
