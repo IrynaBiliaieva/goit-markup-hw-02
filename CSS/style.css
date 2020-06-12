@@ -1,95 +1,47 @@
-/* цвет основного текста #757575 */
-/* вторичный цвет текста  #212121 */
-/* белый #FFFFFF  */
-/* акцент #2196F3 */
-
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-/* body */
+
 body {
   font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
-/* Logo */
-.logo:hover {
-  color: var(--accent-color);
+ul {
+  list-style: none;
 }
-.logo:focus {
-  color: var(--accent-color);
+a {
+  text-decoration: none;
 }
+
 .logo {
-  color: var(--title-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 .logo span {
   color: #2196f3;
 }
-
-/*link*/
-.link:hover {
-  color: var(--accent-color);
-}
-.link:focus {
-  color: var(--accent-color);
-}
-.link:active {
-  color: var(--accent-color);
-}
-
-/*header*/
-
-.site-nav li {
-  list-style: none;
-}
-
-.site-nav .link {
+.site-nav,
+.contact-nav {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.site-nav a {
   color: var(--title-text-color);
-  text-decoration: none;
-}
-.site-nav .link:hover {
-  color: var(--accent-color);
-}
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link:active {
-  color: var(--accent-color);
 }
 
 .contact-nav .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  text-decoration: none;
-}
-.contact-nav .link:hover {
-  color: var(--accent-color);
-}
-.contact-nav .link:focus {
-  color: var(--accent-color);
-}
-.conatct-nav .link:active {
-  color: var(--accent-color);
-}
-.contact-nav li {
-  list-style: none;
 }
 
-/* Hero block */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -98,7 +50,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: lavender;
+  background-color: var(--primary-text-color);
 }
 .button {
   font-weight: 700;
@@ -108,29 +60,24 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: #188ce8;
-  text-decoration: none;
   width: 200px;
   height: 50px;
 }
 
-/*section*/
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .sub-title {
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
 }
-.section-title.sub-title {
+.section-title,
+.sub-title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .work-examples-section .sub-title {
@@ -139,44 +86,26 @@ body {
 }
 
 p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-/*section-features*/
-.section-features li {
-  list-style: none;
-}
 
-/*work-examples-section*/
-.work-examples-section li {
-  list-style: none;
-}
-
-/*our team*/
-.our-team-item {
-  list-style: none;
-}
+.our-team h3,
 .our-team p {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-
-.team-member {
+.our-team h3 {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--title-text-color);
 }
 
-/*footer*/
+.social-app .link {
+  color: var(--primary-text-color);
+}
 .footer {
   background-color: #2f303a;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
@@ -187,39 +116,13 @@ p {
 
 .footer .link {
   color: var(--primary-text-color);
-  text-decoration: none;
-}
 
-.footer .link:hover {
-  color: var(--accent-color);
-}
-.footer .link:focus {
-  color: var(--accent-color);
-}
-.footer .link:focus {
-  color: var(--accent-color);
-}
-.footer strong {
+strong {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-white-color);
 }
 
-.footer .button {
-  font-weight: 900;
-}
-
-/*Portfolio*/
-.portfolio a {
-  text-decoration: none;
-}
-
-.portfolio li {
-  list-style: none;
-}
-/*filter*/
 .filters button {
   font-weight: 500;
   font-size: 16px;
@@ -227,21 +130,11 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: #f5f4fa;
-  width: 128px;
-  height: 38px;
 }
-.filters button:hover {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
+.filters button:hover,
 .filters button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
-/*work-examples-sections*/
-
-.our-works li:hover {
-  background-color: var(--accent-color);
 }
 
 .our-works h2 {
@@ -260,6 +153,16 @@ p {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.our-works span:hover {
+.card-description:hover,
+.card-description:focus {
   color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus,
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--accent-color);
 }
