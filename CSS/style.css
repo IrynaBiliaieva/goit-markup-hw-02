@@ -25,7 +25,7 @@ a {
   letter-spacing: 0.03em;
 }
 .logo span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav,
 .contact-nav {
@@ -59,7 +59,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  background-color: #188ce8;
+  background-color: var(--accent-color);
   width: 200px;
   height: 50px;
 }
@@ -156,10 +156,11 @@ strong {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.card-description: {
+.card .card-description {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+
 .card-description:hover,
 .card-description:focus {
   color: var(--primary-white-color);
