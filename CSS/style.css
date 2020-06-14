@@ -156,6 +156,10 @@ strong {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.card-description: {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 .card-description:hover,
 .card-description:focus {
   color: var(--primary-white-color);
